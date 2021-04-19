@@ -1,0 +1,149 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  height: 100vh;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.section-fresh {
+  position: relative;
+  background: url(../images/BG_top_bg.jpg) center center no-repeat;
+  padding-top: 50px;
+}
+
+.logo {
+  max-width: 127px;
+  max-height: 52px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-right: 36px;
+  list-style-type: none;
+  border-top: 3px solid transparent;
+}
+
+.nav_active {
+  border-top: 3px solid #ff6033;
+}
+
+.nav__item:hover {
+  border-top: 3px solid #ff6033;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #262626;
+}
+
+.section__info {
+  display: flex;
+  flex-direction: column;
+  padding: 25% 0;
+}
+
+.section__title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 15px;
+}
+
+.section__subtitle {
+  max-width: 379px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 28px;
+}
+
+.button__btn {
+  width: 200px;
+  height: 55px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff6033;
+  padding: 17px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.scroling {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.section-about {
+  min-height: 700px;
+  background: #01b5b5 url(../images/Plato.png) left center no-repeat;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25% 0;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  color: #ffffff;
+}
+
+.about__info {
+  max-width: 500px;
+}
+
+.about__subtitle {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.about__subtitle:last-child {
+  margin-bottom: 0;
+}
